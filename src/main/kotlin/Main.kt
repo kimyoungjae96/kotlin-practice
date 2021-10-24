@@ -43,4 +43,23 @@ fun main (){
       println(i)
       i++
    }
+
+   var j = 0
+   while (j < 10) {
+      println(j)
+      j++
+      if (j == 4) {
+         break
+      }
+   }
+
+   var k = 0
+   while (k < 10) {
+      if (k == 4) {
+         k++
+         continue
+      }
+      println(k)
+      k++
+   }
 }
