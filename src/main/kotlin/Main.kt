@@ -66,4 +66,7 @@ fun main (){
    val names = arrayOf("Youngjae","Youngjae2","Youngjae3")
    println(names[0])
    println(names.size)
+   for(name in names){
+      println(name)
+   }
 }
