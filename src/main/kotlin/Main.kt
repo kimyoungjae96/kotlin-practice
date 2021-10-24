@@ -16,4 +16,11 @@ fun main (){
    val myBoolean = true      // Boolean
    val myText = "Hello"      // String
    println("$myNum $myDoubleNum")
+
+   val time = 20
+   if (time < 18){
+      println("Good day.")
+   } else{
+      println("Good evening.")
+   }
 }
